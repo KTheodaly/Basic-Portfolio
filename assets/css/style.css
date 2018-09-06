@@ -1,0 +1,107 @@
+body {font-family: Arial, Helvetica, sans-serif; background-image: href="./assets/images/skulls.png";
+    height: 500px; background-position: center; background-repeat: no-repeat;
+  background-size: cover;
+}
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.button {
+    float: right;
+}
+
+.topnav a {
+  float: right;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#name {
+	float: left;
+    color: #4aaaac;
+    text-align: center;
+    background-color: white;
+    border: 20px;
+    padding: 20px 20 px;
+    text-decoration: none;
+    font-size: 8px;
+}
+#contactme {
+    display:"inline"
+}
+    .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   Background-color:#666666;
+   Border-top: 5px #4aaaa5;	
+   color: white;
+   text-align: center;
+}
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#header { 
+width: 100%; 
+background-color: red; 
+height: 30px; 
+} 
+
+#container { 
+width: 300px; 
+background-color: #ffcc33; 
+margin: auto; 
+} 
+
+#first { 
+width: 100px; 
+float: left; 
+height: 300px; 
+background-color: blue; 
+} 
+
+#second { 
+width: 200px; 
+float: left; 
+height: 300px; 
+background-color: green; 
+} 
+
+#clear { 
+clear: both; 
+}

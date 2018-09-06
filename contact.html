@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="./assets/css/style.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+        <div style="background-color:#ffffff">
+                <div id="name"><h1 style="float:right;background-color:#4aaaa5;padding:20px;color:white;font-family: 'Georgia', Times, Times New Roman, serif;">Theo Daly</h1></div>
+                <div class="topnav">
+                        <button class="active" href="#about">About</button>
+                        <button href="#portfolio">Portfolio</button>
+                        <button href="#contact">Contact</button>
+                      </div>
+
+
+<br>
+ <h3 id="contactme" style="font-family: 'Georgia', Times, Times New Roman, serif; color: #4aaaa5; font: size 40px;">Contact</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="name">Name</label>
+    <input type="text" id="fname" name="name" placeholder="Jane Smith">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="example@gmail.com">
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<div class="footer">
+        <p style="color:#dddddd;font-family: Arial, Helvetica, sans-serif">Copyright©</p>
+      </div>
+</body>
+</html>
